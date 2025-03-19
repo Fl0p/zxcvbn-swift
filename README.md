@@ -15,6 +15,10 @@ Tested in Swift 5.9
 * Provides feedback on the password and ways to improve it
 * Returns time estimates on how long it would take to guess the password in different situations
 
+## Warning
+
+Slow perfomance dew to re-loading jsons each call
+needs to be updated
 
 ## Installation
 
@@ -23,7 +27,7 @@ To your dependencies add
 ```swift
 dependencies: [
     // Other packages
-    .package(url: "https://github.com/Fl0p/zxcvbn-swift", from: "1.1.0")
+    .package(url: "https://github.com/Fl0p/zxcvbn-swift", from: "1.2.0")
 ]
 ```
 and to your targets add

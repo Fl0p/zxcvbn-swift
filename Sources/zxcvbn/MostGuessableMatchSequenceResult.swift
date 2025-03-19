@@ -11,7 +11,7 @@ public struct MostGuessableMatchSequenceResult {
     public var password: String
     public var guesses: Double
     public var guessesLog10: Double
-    var sequence: [Match]
+    public var sequence: [Match]
     public var feedback: [String: [String]]?
     public var calcTime: TimeInterval?
     public var crackTimesSeconds: CrackTimesSeconds?

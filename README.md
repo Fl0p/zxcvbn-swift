@@ -23,7 +23,7 @@ To your dependencies add
 ```swift
 dependencies: [
     // Other packages
-    .package(url: "https://github.com/DeVitoC/zxcvbn-swift", from: "1.00.02")
+    .package(url: "https://github.com/Fl0p/zxcvbn-swift", from: "1.1.0")
 ]
 ```
 and to your targets add
@@ -41,9 +41,9 @@ targets: [
 #### Installing in iOS:
 From the menu select File -> Add Package Dependencies
 
-Search for ``github.com/DeVitoC/zxcvbn-swift``
+Search for ``https://github.com/Fl0p/zxcvbn-swift``
 
-Select zxcvbn-swift (make sure it is from github.com/DeVitoC). 
+Select zxcvbn-swift (make sure it is from github.com/Fl0p). 
 
 Select "Up To Next Major Version"
 
@@ -88,8 +88,8 @@ func checkPassword(req: Request) async throws -> Int {
 
 ## Contribute
 
-* Report an Issue: [https://github.com/DeVitoC/zxcvbn-swift/issues](https://github.com/DeVitoC/zxcvbn-swift/issues)
-* Submit a Pull Request: [https://github.com/DeVitoC/zxcvbn-swift/pulls](https://github.com/DeVitoC/zxcvbn-swift/pulls)
+* Report an Issue: [https://github.com/Fl0p/zxcvbn-swift/issues](https://github.com/Fl0p/zxcvbn-swift/issues)
+* Submit a Pull Request: [https://github.com/Fl0p/zxcvbn-swift/pulls](https://github.com/Fl0p/zxcvbn-swift/pulls)
 
 
 ## License
